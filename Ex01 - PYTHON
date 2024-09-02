@@ -1,0 +1,22 @@
+#Denifição das variáveis
+indice = 13
+soma = 0
+k = 0
+#Loop que irá realizar enquanto K for < indice
+while k < indice:
+    k = k + 1
+    soma = soma + k
+#Imprime o valor final de soma
+print(soma)
+#Resposta: 91
+
+
+
+indice = 13
+soma = 0
+k = 0
+while k < indice:
+    k = k + 1
+    soma = soma + k
+print(soma)
+Resposta: 91
