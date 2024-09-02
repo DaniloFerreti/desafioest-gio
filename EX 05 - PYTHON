@@ -1,0 +1,18 @@
+string = "target" #string definida
+string_invertida = ""
+for caractere in string:
+    string_invertida = caractere + string_invertida
+print(f"String original: {string}")
+print(f"String invertida: {string_invertida}")
+
+
+
+OU
+
+
+string = input("Digite uma string para inverter: ") #entrada do usuário
+string_invertida = ""
+for caractere in string:
+    string_invertida = caractere + string_invertida
+print(f"String original: {string}")
+print(f"String invertida: {string_invertida}")
