@@ -10,3 +10,19 @@ if pertence_fibonacci(numero):
     print(f'O número {numero} está na sequência de Fibonacci.')
 else:
     print(f'O número {numero} NÃO está na sequência de Fibonacci.')
+
+
+OU
+
+def pertence_fibonacci(n):
+    a, b = 0, 1
+    while a <= n:
+        if a == n:
+            return True
+        a, b = b, a +b
+    return False
+numero = 15  #pode ir testando diversos números
+if pertence_fibonacci(numero):
+    print(f'O número {numero} está na sequência de Fibonacci.')
+else:
+    print(f'O número {numero} NÃO está na sequência de Fibonacci.')
